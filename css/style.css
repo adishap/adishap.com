@@ -1,0 +1,278 @@
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff9999;
+    width: 30px;
+    height: 30px;
+    display: block;
+    text-decoration: none;
+    border-radius: 100%;
+    display: none;
+}
+
+#return-to-top span {
+    color: #fff;
+    padding: 3px 5px;
+    position: relative;
+}
+
+nav.navbar-findcond {
+    background: #fff;
+    border-color: #fff;
+}
+
+nav.navbar-findcond a {
+    color: #000;
+}
+
+nav.navbar-findcond ul.navbar-nav a {
+    color: #000;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: #fff;
+}
+
+nav.navbar-findcond ul.navbar-nav li.active a {
+    color: #000;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: #000;
+}
+
+nav.navbar-findcond ul.navbar-nav a:hover,
+nav.navbar-findcond ul.navbar-nav a:visited,
+nav.navbar-findcond ul.navbar-nav a:focus,
+nav.navbar-findcond ul.navbar-nav a:active {
+    background: #fff;
+}
+
+nav.navbar-findcond ul.navbar-nav a:hover {
+    border-color: #000;
+}
+
+nav.navbar-findcond li.divider {
+    background: #ccc;
+}
+
+nav.navbar-findcond button.navbar-toggle {
+    background: #000;
+    border-radius: 2px;
+}
+
+nav.navbar-findcond button.navbar-toggle:hover {
+    background: #999;
+}
+
+nav.navbar-findcond button.navbar-toggle > span.icon-bar {
+    background: #fff;
+}
+
+nav.navbar-findcond ul.dropdown-menu {
+    border: 0;
+    background: #fff;
+    border-radius: 4px;
+    margin: 4px 0;
+    box-shadow: 0 0 4px 0 #ccc;
+}
+
+nav.navbar-findcond ul.dropdown-menu > li > a {
+    color: #444;
+}
+
+nav.navbar-findcond ul.dropdown-menu > li > a:hover {
+    background: #000;
+    color: #fff;
+}
+
+nav.navbar-findcond span.badge {
+    background: #000;
+    font-weight: normal;
+    font-size: 11px;
+    margin: 0 4px;
+}
+
+nav.navbar-findcond span.badge.new {
+    background: rgba(255, 0, 0, 0.8);
+    color: #fff;
+}
+
+body {
+    font-family: "Courier";
+    font-size: 20px;
+}
+
+.intro-div button {
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 2px 5px;
+    font-size: 20px;
+    background-color: #000;
+}
+
+.intro-div {
+    height: 100vh;
+    min-height: 100%;
+    max-height: 100%;
+    color: #fff;
+    background-color: #000;
+    padding-left: 15%;
+    padding-top: 15%;
+}
+
+.intro-div p {
+    font-size: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 20em;
+    animation: type 4s steps(30, end);
+}
+
+.intro-div p:nth-child(2) {
+    animation: type2 8s steps(40, end);
+}
+
+.intro-div p a {
+    text-decoration: none;
+}
+
+
+/*
+.intro-div p span {
+    animation: blink 2s infinite;
+}
+*/
+
+@keyframes type {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes type2 {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 0;
+    }
+    100% {
+        width: 100;
+    }
+}
+
+
+/*@keyframes blink {
+    to {
+        opacity: .0;
+    }
+}
+*/
+
+::selection {
+    background: black;
+}
+
+.know-more-btn {
+    -webkit-animation: seconds 1.0s forwards;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-delay: 8s;
+    animation: seconds 1.0s forwards;
+    animation-iteration-count: 1;
+    animation-delay: 8s;
+    visibility: hidden;
+}
+
+@keyframes seconds {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.margin-top {
+    margin-top: 70px;
+}
+
+.content {
+    padding: 20px 30px;
+    min-height: 500px;
+}
+
+.label-black {
+    background-color: #000;
+    padding-top: 10px;
+    border-radius: 0px;
+}
+
+.skills1,
+.skills2 {
+    width: 100%;
+    height: 200px;
+}
+
+.company-logo {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.company,
+.footer-icon {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer-icon:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-icon:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-icon:focus {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-icon:hover,
+.footer-icon:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer {
+    margin-top: 30px;
+    background-color: #000;
+    color: #fff;
+    padding: 50px;
+}
+
+.hire {
+    border: 1px solid #000;
+    color: #000;
+    padding: 2px 5px;
+    margin-right: 20px;
+    font-size: 20px;
+    background-color: #fff;
+}
+
+.pink {
+    color: #ff1d8e;
+}
+
+.black {
+    color: #000;
+}
