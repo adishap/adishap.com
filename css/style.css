@@ -100,6 +100,7 @@ nav.navbar-findcond span.badge.new {
 body {
     font-family: "Courier";
     font-size: 20px;
+    overflow-x: hidden;
 }
 
 .intro-div button {
@@ -136,13 +137,6 @@ body {
     text-decoration: none;
 }
 
-
-/*
-.intro-div p span {
-    animation: blink 2s infinite;
-}
-*/
-
 @keyframes type {
     from {
         width: 0;
@@ -159,18 +153,6 @@ body {
     100% {
         width: 100;
     }
-}
-
-
-/*@keyframes blink {
-    to {
-        opacity: .0;
-    }
-}
-*/
-
-::selection {
-    background: black;
 }
 
 .know-more-btn {
@@ -211,12 +193,6 @@ body {
     border-radius: 0px;
 }
 
-/*.skills1,
-.skills2 {
-    width: 100%;
-    height: 200px;
-}
-*/
 .company-logo {
     width: 100px;
     height: 100px;
@@ -275,7 +251,6 @@ body {
 .black {
     color: #000;
 }
-
 
 .skillsets {
     height: 200px;
