@@ -39,38 +39,30 @@
     }
 
     nodes = [{
-        "x": 80,
-        "r": 70,
         "left": -55,
         "arr": 500,
         "label": "JavaScript"
     }, {
-        "x": 260,
-        "r": 70,
         "left": -35,
         "arr": 400,
         "label": "jQuery"
     }, {
-        "x": 440,
-        "r": 70,
         "left": -25,
         "arr": 380,
         "label": "NVD3"
     }, {
-        "x": 620,
-        "r": 70,
         "left": -35,
         "arr": 290,
         "label": "Node.js"
     }, {
-        "x": 800,
-        "r": 70,
+        "left": -35,
+        "arr": 250,
+        "label": "React.js"
+    }, {
         "left": -25,
         "arr": 500,
         "label": "HTML"
     }, {
-        "x": 980,
-        "r": 70,
         "left": -35,
         "arr": 500,
         "label": "CSS"
@@ -84,19 +76,14 @@
         "label": "MySQL"
     }, {
         "left": -50,
-        "arr": 430,
-        "label": "Linux"
-    }, {
-        "left": -50,
-        "arr": 220,
+        "arr": 280,
         "label": "Golang"
     }, {
         "left": -50,
-        "arr": 250,
+        "arr": 280,
         "label": "Python"
     }, {
         "left": -50,
-        "r": 70,
         "arr": 430,
         "label": "Git"
     }];
